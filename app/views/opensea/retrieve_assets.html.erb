@@ -1,0 +1,13 @@
+<!-- app/views/opensea/retrieve_assets.html.erb -->
+<h1>Retrieved Assets</h1>
+
+<ul>
+  <% @assets.each do |asset| %>
+    <li>
+      <strong>Name:</strong> <%= asset.name %><br>
+      <strong>Description:</strong> <%= asset.description %><br>
+      <strong>Image:</strong> <%= image_tag(asset.image_url) %><br>
+      <!-- Add more asset details as needed -->
+    </li>
+  <% end %>
+</ul>

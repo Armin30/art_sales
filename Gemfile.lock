@@ -168,6 +168,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.15.2-x86_64-linux)
       racc (~> 1.4)
+    opensea (0.0.1)
     orm_adapter (0.5.0)
     pg (1.5.3)
     public_suffix (5.0.1)
@@ -288,6 +289,7 @@ DEPENDENCIES
   font-awesome-sass (~> 6.1)
   jbuilder
   jsbundling-rails
+  opensea
   pg (~> 1.1)
   puma (~> 5.0)
   pundit
